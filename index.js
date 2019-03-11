@@ -1,4 +1,4 @@
-const globalvar = 'bob'
+var customerName = 'bob'
 const leastFavoriteCustomer = 'sour fred'
 
 function upperCaseCustomerName() {
@@ -8,7 +8,7 @@ function upperCaseCustomerName() {
 function changeLeastFavoriteCustomer(){
   leastFavoriteCustomer = 'sour fred'
 }
-
+   
 
 function setBestCustomer(){
   bestCustomer = 'not bob'
